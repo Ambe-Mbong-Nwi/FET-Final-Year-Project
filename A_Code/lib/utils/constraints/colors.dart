@@ -29,7 +29,7 @@ class AColors {
 
   static const Color light = Color(0xFFF6F6F6);
   static const Color dark = Color(0xFF272727);
-  static const Color primaryBackground = Color(0xFFF3F5FF);
+  static const Color primaryBackground = Color(0xFFFEFEFE);
 
 //background container colors
   static const Color lightContainer = Color(0xFFF6F6F6);
@@ -47,7 +47,7 @@ class AColors {
 
 //error and validation colors
 
-  static const Color error = Color(0xFFD32F2f);
+  static const Color error = Color(0xFFBD2630);
   static const Color success = Color(0xFF388E3C);
   static const Color warning = Color(0xFFF57C60);
   static const Color info = Color(0xFFF1A183);
