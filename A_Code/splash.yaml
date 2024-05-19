@@ -1,0 +1,15 @@
+## to run the splash first, use the command 'flutter pub run flutter_native_splash:create --path=splash.yaml'
+## to remove the splash first, use the command 'flutter pub run flutter_native_splash:remove --path=splash.yaml '
+
+flutter_native_splash:
+  color: "#FEFEFE"
+  color_dark: "#14142B"
+  image: assets/logos/logo-color.png
+  # image_dark:  assets/logos/logo-color.png
+
+  android_12:
+    color: "#FEFEFE"
+    color_dark: "#14142B"
+    image: assets/logos/logo-color.png
+
+  web: false

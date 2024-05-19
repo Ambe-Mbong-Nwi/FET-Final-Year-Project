@@ -1,5 +1,4 @@
 import 'package:aproject/app.dart';
-import 'package:aproject/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {

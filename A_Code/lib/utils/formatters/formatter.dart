@@ -9,8 +9,7 @@ class AFormatter {
 
   //customising the cfa currency
   static String formatCurrency(double amount) {
-    return NumberFormat.currency(locale: 'en_Ca', symbol: '\CFA')
-        .format(amount);
+    return NumberFormat.currency(locale: 'en_Ca', symbol: 'CFA').format(amount);
   }
 
   //assuming a 9 digit phone number format
