@@ -1,23 +1,31 @@
 [
     {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-xhdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-xhdpi/android12splash.png"
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-hdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-hdpi/android12splash.png"
     },
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-night_background.png.flat",
         "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-night/background.png"
     },
     {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-xxxhdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-xxxhdpi/android12splash.png"
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-xhdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-xhdpi/android12splash.png"
+    },
+    {
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-mdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-mdpi/android12splash.png"
+    },
+    {
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-xxxhdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-xxxhdpi/android12splash.png"
+    },
+    {
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-night-xxhdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-night-xxhdpi/android12splash.png"
     },
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-night_launch_background.xml.flat",
         "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-night/launch_background.xml"
-    },
-    {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-xxhdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-xxhdpi/android12splash.png"
     },
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-xxhdpi_splash.png.flat",
@@ -40,24 +48,12 @@
         "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-mdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-mdpi/android12splash.png"
-    },
-    {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-xxhdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-night-xxhdpi/android12splash.png"
-    },
-    {
         "merged": "com.example.aproject.app-merged_res-13:/drawable-mdpi_splash.png.flat",
         "source": "com.example.aproject.app-main-7:/drawable-mdpi/splash.png"
     },
     {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-hdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-night-hdpi/android12splash.png"
-    },
-    {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-hdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-hdpi/android12splash.png"
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-night-xhdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-night-xhdpi/android12splash.png"
     },
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-v21_launch_background.xml.flat",
@@ -68,28 +64,44 @@
         "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable/background.png"
     },
     {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-xhdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-night-xhdpi/android12splash.png"
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-night-mdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-night-mdpi/android12splash.png"
+    },
+    {
+        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-xxhdpi_splash.png.flat",
+        "source": "com.example.aproject.app-main-7:/drawable-night-xxhdpi/splash.png"
     },
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-xxxhdpi_splash.png.flat",
         "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-xxxhdpi/splash.png"
     },
     {
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-night-hdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-night-hdpi/android12splash.png"
+    },
+    {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-night-v21_launch_background.xml.flat",
         "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-night-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-xxxhdpi_splash.png.flat",
+        "source": "com.example.aproject.app-main-7:/drawable-night-xxxhdpi/splash.png"
+    },
+    {
+        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-xhdpi_splash.png.flat",
+        "source": "com.example.aproject.app-main-7:/drawable-night-xhdpi/splash.png"
     },
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-xxhdpi_splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-xxhdpi/splash.png"
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-xxhdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-xxhdpi/android12splash.png"
     },
     {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-mdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-night-mdpi/android12splash.png"
+        "merged": "com.example.aproject.app-merged_res-13:/drawable-xxhdpi_splash.png.flat",
+        "source": "com.example.aproject.app-main-7:/drawable-xxhdpi/splash.png"
     },
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/mipmap-xxhdpi_ic_launcher.png.flat",
@@ -104,8 +116,12 @@
         "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-xxxhdpi_android12splash.png.flat",
-        "source": "com.example.aproject.app-main-7:/drawable-night-xxxhdpi/android12splash.png"
+        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-hdpi_splash.png.flat",
+        "source": "com.example.aproject.app-main-7:/drawable-night-hdpi/splash.png"
+    },
+    {
+        "merged": "com.example.aproject.app-merged_res-13:/drawable-night-mdpi_splash.png.flat",
+        "source": "com.example.aproject.app-main-7:/drawable-night-mdpi/splash.png"
     },
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-v21_background.png.flat",
@@ -118,6 +134,10 @@
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-xhdpi_splash.png.flat",
         "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-xhdpi/splash.png"
+    },
+    {
+        "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable-night-xxxhdpi_android12splash.png.flat",
+        "source": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-main-7:/drawable-night-xxxhdpi/android12splash.png"
     },
     {
         "merged": "/home/ambe/.gradle/daemon/7.5/com.example.aproject.app-merged_res-13:/drawable_launch_background.xml.flat",
