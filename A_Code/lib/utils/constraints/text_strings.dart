@@ -15,7 +15,7 @@ class ATexts {
   static const String loginTitle = "Welcome back";
   static const String loginSubTitle =
       "Find and Reserve Products at Affordable Prices";
-  static const String signupTitle = "Sign Up With";
+  static const String signupTitle = "Sign Up With ";
 
   //general texts
   static const String submit = "Submit";
@@ -24,6 +24,7 @@ class ATexts {
   static const String asave = "Save";
   static const String appName1 = "Market";
   static const String appName2 = "Fam";
+  static const String done = "Done";
 
 //authentication form texts
   static const String fullname = "Full Name";
@@ -38,7 +39,7 @@ class ATexts {
   static const String createAccount = "Create Account";
   static const String orLogInWith = "or Log In with";
   static const String orSignUpWith = "or sign up with";
-  static const String agreeTo = "I agree to";
+  static const String agreeTo = "I agree to the";
   static const String privacyPolicy = "Privacy Policy";
   static const String termsOfUse = "Terms of Use";
   static const String verificationCode = "Verification Code";
@@ -46,6 +47,24 @@ class ATexts {
   static const String resendEmailIn = "Resend Email In";
   static const String login = "Login";
   static const String logout = "Logout";
+  static const String and = "and";
+
+  //email verification texts
+  static const String verifyEmailTitle = "Verify your email address";
+  static const String verifyEmailSubTitle =
+      "Please verify your email address to complete the registration process. We've sent a verification code to the email address you provided";
+  static const String yourAccountCreatedTitle =
+      "Superb! Your account has been successfully established";
+  static const String yourAccountCreatedSubTitle =
+      "Welcome aboard! Your email address has been successfully verified, and account created. Begin your market journey.";
+
+//forgot and reset password
+  static const String forgotPasswordTitle = "Forgot Password";
+  static const String forgotPasswordSubTitile =
+      "Your security is our priority. Enter your email below to receive a password reset link.";
+  static const String resetPasswordTitle = "Password Reset Email Sent";
+  static const String resetPasswordSubTitle =
+      "Hooray! Your verification email address has been sent. Change your password ank keep your account protected.";
 
   //Authentication warning texts
   // static const String email = "";

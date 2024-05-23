@@ -1,4 +1,4 @@
-import 'package:aproject/features/authentication/screens/onBoarding/onboarding.dart';
+import 'package:aproject/features/buyer/buyerAuthentication/buyerAscreens/buyerSignUp/verifyEmail.dart';
 import 'package:aproject/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -13,7 +13,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: AAppTheme.lightTheme, //light theme i defined in utils folder
       darkTheme: AAppTheme.darkTheme, //dark theme
-      home: OnBoardingScreen(),
+      home: const verifyEmailScreen(),
     );
   }
 }

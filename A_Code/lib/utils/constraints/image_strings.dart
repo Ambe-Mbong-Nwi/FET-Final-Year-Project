@@ -5,6 +5,8 @@ class AImages {
   //app logos
   static const String appLogo = "assets/logos/logo-no-background.png";
   //static const String lightAppLogo = "assets/logos/logo-no-background.png";
+
+  //onboarding images
   static const String onBoardingImage1 =
       "assets/images/onBoardingImages/searchProduct_noBackground.gif";
   static const String onBoardingImage2 =
@@ -19,4 +21,10 @@ class AImages {
   static const String phone = "assets/logos/phone.png";
   static const String twitter = "assets/logos/twitter.png";
   static const String linkedin = "assets/logos/linkedin.png";
+
+  //email verification images
+  static const String verifiedEmail =
+      'assets/images/onBoardingImages/verifiedEmail.png';
+  static const String verifyEmail =
+      'assets/images/onBoardingImages/verifyEmail.png';
 }
