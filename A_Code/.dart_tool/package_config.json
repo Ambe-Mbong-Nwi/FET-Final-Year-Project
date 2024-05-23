@@ -260,6 +260,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "smooth_page_indicator",
+      "rootUri": "file:///home/ambe/.pub-cache/hosted/pub.dev/smooth_page_indicator-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "source_span",
       "rootUri": "file:///home/ambe/.pub-cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
@@ -398,7 +404,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-05-19T11:43:12.333469Z",
+  "generated": "2024-05-22T12:23:33.314785Z",
   "generator": "pub",
   "generatorVersion": "3.2.0"
 }

@@ -3,13 +3,18 @@
 
 class AImages {
   //app logos
-  static const String darkAppLogo =
-      "assets/logos/google-icon.png"; //download them
-  static const String lightAppLogo = "assets/logos/google-icon.png";
+  static const String appLogo = "assets/logos/logo-no-background.png";
+  //static const String lightAppLogo = "assets/logos/logo-no-background.png";
+  static const String onBoardingImage1 =
+      "assets/images/onBoardingImages/searchProduct_noBackground.gif";
+  static const String onBoardingImage2 =
+      "assets/images/onBoardingImages/Messages_noBackground.gif";
+  static const String onBoardingImage3 =
+      "assets/images/onBoardingImages/PaymentInfo_noBackground.gif";
 
   //social Logo
   static const String google = "assets/logos/google.png";
-  static const String facebook = "assets/logos/faceboook.png";
+  static const String facebook = "assets/logos/facebook.png";
   static const String gmail = "assets/logos/gmail.jpeg";
   static const String phone = "assets/logos/phone.png";
   static const String twitter = "assets/logos/twitter.png";

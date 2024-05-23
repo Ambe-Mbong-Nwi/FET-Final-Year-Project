@@ -1,3 +1,4 @@
+import 'package:aproject/utils/constraints/colors.dart';
 import 'package:flutter/material.dart';
 
 class ACheckBoxTheme {
@@ -16,7 +17,7 @@ class ACheckBoxTheme {
     }),
     fillColor: MaterialStateProperty.resolveWith((states) {
       if (states.contains(MaterialState.selected)) {
-        return Colors.brown;
+        return AColors.primary;
       } else {
         return Colors.transparent;
       }
@@ -35,7 +36,7 @@ class ACheckBoxTheme {
     }),
     fillColor: MaterialStateProperty.resolveWith((states) {
       if (states.contains(MaterialState.selected)) {
-        return Colors.brown;
+        return AColors.primary;
       } else {
         return Colors.transparent;
       }

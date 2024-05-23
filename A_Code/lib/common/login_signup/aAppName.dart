@@ -1,0 +1,19 @@
+import 'package:aproject/utils/constraints/text_strings.dart';
+import 'package:flutter/material.dart';
+
+class aAppName extends StatelessWidget {
+  const aAppName({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text(ATexts.appName1, style: Theme.of(context).textTheme.displayLarge),
+        Text(ATexts.appName2, style: Theme.of(context).textTheme.displayMedium),
+      ],
+    );
+  }
+}

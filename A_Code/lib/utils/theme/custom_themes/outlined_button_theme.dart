@@ -1,3 +1,4 @@
+import 'package:aproject/utils/constraints/colors.dart';
 import 'package:flutter/material.dart';
 
 class AOutlinedButtonTheme {
@@ -8,7 +9,7 @@ class AOutlinedButtonTheme {
     style: ElevatedButton.styleFrom(
       elevation: 0, //removes height
       foregroundColor: Colors.black, //text color
-      side: const BorderSide(color: Colors.brown), //border
+      side: const BorderSide(color: AColors.primary), //border
       padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
       textStyle: const TextStyle(
           fontSize: 16, color: Colors.black, fontWeight: FontWeight.w600),
@@ -21,7 +22,7 @@ class AOutlinedButtonTheme {
     style: ElevatedButton.styleFrom(
       elevation: 0, //removes height
       foregroundColor: Colors.black, //text color
-      side: const BorderSide(color: Colors.brown), //border
+      side: const BorderSide(color: AColors.primary), //border
       padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
       textStyle: const TextStyle(
           fontSize: 16, color: Colors.white, fontWeight: FontWeight.w600),

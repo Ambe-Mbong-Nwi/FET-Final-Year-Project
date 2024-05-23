@@ -16,7 +16,7 @@ class AAppTheme {
       useMaterial3: true, //bcos we use it
       fontFamily: 'PlayfairDisplay',
       brightness: Brightness.light,
-      primaryColor: Colors.brown,
+      primaryColor: const Color(0xFFF1A183),
       scaffoldBackgroundColor: Colors.white,
       textTheme: ATextTheme
           .lightTextTheme, //create a new class texttheme that defines this in the utils custom_themes text_theme file
@@ -33,7 +33,7 @@ class AAppTheme {
       useMaterial3: true, //bcos we use it
       fontFamily: 'PlayfairDisplay',
       brightness: Brightness.dark,
-      primaryColor: Colors.brown,
+      primaryColor: const Color(0xFFF1A183),
       scaffoldBackgroundColor: Colors.black,
       textTheme: ATextTheme
           .darkTextTheme, //this is defined in the utils text_theme file
