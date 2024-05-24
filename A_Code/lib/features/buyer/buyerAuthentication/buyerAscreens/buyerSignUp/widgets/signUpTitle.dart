@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, camel_case_types
+
 import 'package:aproject/common/widgets/login_signup/aAppName.dart';
 import 'package:aproject/utils/constraints/text_strings.dart';
 import 'package:flutter/material.dart';

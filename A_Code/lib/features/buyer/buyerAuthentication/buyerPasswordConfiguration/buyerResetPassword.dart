@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, camel_case_types
+
 import 'package:aproject/utils/constraints/image_strings.dart';
 import 'package:aproject/utils/constraints/sizes.dart';
 import 'package:aproject/utils/constraints/text_strings.dart';
@@ -21,12 +23,12 @@ class resetPassword extends StatelessWidget {
             ]),
         body: SingleChildScrollView(
           child: Padding(
-              padding: EdgeInsets.all(ASizes.defaultSpace),
+              padding: const EdgeInsets.all(ASizes.defaultSpace),
               child: Column(
                 children: [
                   //image
                   Image(
-                    image: AssetImage(AImages.verifyEmail),
+                    image: const AssetImage(AImages.verifyEmail),
                     width: AHelperFunctions.screenWidth() * 0.6,
                   ),
                   const SizedBox(height: ASizes.spaceBtwSections),
@@ -35,9 +37,9 @@ class resetPassword extends StatelessWidget {
                   Text(ATexts.resetPasswordTitle,
                       style: Theme.of(context).textTheme.headlineMedium,
                       textAlign: TextAlign.center),
-                  SizedBox(height: ASizes.spaceBtwItems),
+                  const SizedBox(height: ASizes.spaceBtwItems),
 
-                  SizedBox(height: ASizes.spaceBtwItems),
+                  const SizedBox(height: ASizes.spaceBtwItems),
                   Text(ATexts.resetPasswordSubTitle,
                       style: Theme.of(context).textTheme.labelMedium,
                       textAlign: TextAlign.center),

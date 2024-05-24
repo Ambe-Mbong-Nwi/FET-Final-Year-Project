@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:aproject/features/buyer/buyerAuthentication/buyerControllersOnboarding/buyerOnBoardingController.dart';
 import 'package:aproject/utils/constraints/colors.dart';
 import 'package:aproject/utils/constraints/sizes.dart';

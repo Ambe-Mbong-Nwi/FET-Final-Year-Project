@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, file_names
 import 'package:aproject/features/buyer/buyerAuthentication/buyerControllersOnboarding/buyerOnBoardingController.dart';
 import 'package:aproject/utils/constraints/colors.dart';
 import 'package:aproject/utils/constraints/sizes.dart';

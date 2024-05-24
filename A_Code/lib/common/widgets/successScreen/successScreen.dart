@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, camel_case_types
+
 import 'package:aproject/common/spacing_styles.dart';
 import 'package:aproject/utils/constraints/sizes.dart';
 import 'package:aproject/utils/constraints/text_strings.dart';
@@ -35,9 +37,9 @@ class success_screen extends StatelessWidget {
               Text(title,
                   style: Theme.of(context).textTheme.headlineMedium,
                   textAlign: TextAlign.center),
-              SizedBox(height: ASizes.spaceBtwItems),
+              const SizedBox(height: ASizes.spaceBtwItems),
 
-              SizedBox(height: ASizes.spaceBtwItems),
+              const SizedBox(height: ASizes.spaceBtwItems),
               Text(subTitle,
                   style: Theme.of(context).textTheme.labelMedium,
                   textAlign: TextAlign.center),

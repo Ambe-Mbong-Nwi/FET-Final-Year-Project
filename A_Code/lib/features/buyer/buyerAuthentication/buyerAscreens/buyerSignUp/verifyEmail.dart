@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, file_names
 
 import 'package:aproject/common/widgets/successScreen/successScreen.dart';
 import 'package:aproject/features/buyer/buyerAuthentication/buyerAscreens/buyerLogin/buyerlogin.dart';
@@ -57,8 +57,8 @@ class verifyEmailScreen extends StatelessWidget {
                         child: ElevatedButton(
                             onPressed: () => Get.to(() => success_screen(
                                   image: AImages.verifiedEmail,
-                                  title: ATexts.verifyEmailTitle,
-                                  subTitle: ATexts.verifyEmailSubTitle,
+                                  title: ATexts.yourAccountCreatedTitle,
+                                  subTitle: ATexts.yourAccountCreatedSubTitle,
                                   onPressed: () =>
                                       Get.to(() => const LoginScreen()),
                                 )),

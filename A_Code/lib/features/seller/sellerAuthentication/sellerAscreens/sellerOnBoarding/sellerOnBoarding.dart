@@ -1,7 +1,7 @@
 //designed the page layout in onboarding.dart, and used onboarding_controller class for all the controls.
 //
 
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, file_names
 
 import 'package:aproject/features/seller/sellerAuthentication/sellerAscreens/sellerOnBoarding/widgets/sellerOnBoardingDotNavigation.dart';
 import 'package:aproject/features/seller/sellerAuthentication/sellerAscreens/sellerOnBoarding/widgets/sellerOnBoardingNextButton.dart';
@@ -30,17 +30,17 @@ class sellerOnBoardingScreen extends StatelessWidget {
           onPageChanged: controller.updatePageIndator,
           children: const [
             sellerOnBoardingPage(
-                image: AImages.onBoardingImage1,
-                title: ATexts.onBoardingTitle1,
-                subTitle: ATexts.onBoardingSubTitle1),
+                image: AImages.sellerOnBoardingImage1,
+                title: ATexts.sellerOnBoardingTitle1,
+                subTitle: ATexts.sellerOnBoardingSubTitle1),
             sellerOnBoardingPage(
                 image: AImages.onBoardingImage2,
-                title: ATexts.onBoardingTitle2,
-                subTitle: ATexts.onBoardingSubTitle2),
+                title: ATexts.sellerOnBoardingTitle2,
+                subTitle: ATexts.sellerOnBoardingSubTitle2),
             sellerOnBoardingPage(
                 image: AImages.onBoardingImage3,
-                title: ATexts.onBoardingTitle3,
-                subTitle: ATexts.onBoardingSubTitle3)
+                title: ATexts.sellerOnBoardingTitle3,
+                subTitle: ATexts.sellerOnBoardingSubTitle3)
           ]),
 
       //skip button

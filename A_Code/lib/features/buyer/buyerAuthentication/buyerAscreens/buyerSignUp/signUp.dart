@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, camel_case_types
+
 import 'package:aproject/common/widgets/login_signup/aFormDivider.dart';
 import 'package:aproject/common/widgets/login_signup/aSocialButton.dart';
 import 'package:aproject/features/buyer/buyerAuthentication/buyerAscreens/buyerSignUp/verifyEmail.dart';
@@ -44,7 +46,8 @@ class signupScreen extends StatelessWidget {
                     SizedBox(
                         width: double.infinity,
                         child: ElevatedButton(
-                            onPressed: () => Get.to(() => verifyEmailScreen()),
+                            onPressed: () =>
+                                Get.to(() => const verifyEmailScreen()),
                             child: const Text(ATexts.signup))),
                     const SizedBox(height: ASizes.spaceBtwItems),
 

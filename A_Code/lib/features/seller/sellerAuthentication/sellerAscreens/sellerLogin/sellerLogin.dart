@@ -1,5 +1,5 @@
 //all designs for the inputfields etc have been designed in the different theme files, and called in the theme.dark for both light and dark modes, so just use here
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, file_names
 
 import 'package:aproject/common/spacing_styles.dart';
 import 'package:aproject/common/widgets/login_signup/aAppName.dart';

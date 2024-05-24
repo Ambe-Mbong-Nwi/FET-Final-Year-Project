@@ -1,7 +1,8 @@
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, file_names
 
 import 'package:aproject/features/buyer/buyerAuthentication/buyerAscreens/buyerSignUp/signUp.dart';
 import 'package:aproject/features/buyer/buyerAuthentication/buyerPasswordConfiguration/buyerForgotPassword.dart';
+import 'package:aproject/features/buyer/buyerNavigation.dart';
 import 'package:aproject/utils/constraints/colors.dart';
 import 'package:aproject/utils/constraints/sizes.dart';
 import 'package:aproject/utils/constraints/text_strings.dart';
@@ -67,7 +68,8 @@ class aLoginForm extends StatelessWidget {
           SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                  onPressed: () {}, child: const Text(ATexts.login))),
+                  onPressed: () => Get.to(() => const buyerNavigation()),
+                  child: const Text(ATexts.login))),
           const SizedBox(height: ASizes.spaceBtwItems),
 
           //create account button

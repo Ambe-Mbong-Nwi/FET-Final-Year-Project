@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, file_names
 
 import 'package:aproject/features/seller/sellerAuthentication/sellerAscreens/sellerSignUp/sellerSignUp.dart';
 import 'package:aproject/features/seller/sellerAuthentication/sellerPasswordConfiguration/sellerForgotPassword.dart';

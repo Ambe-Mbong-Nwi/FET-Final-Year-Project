@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types
+// ignore_for_file: camel_case_types, file_names
 
 import 'package:aproject/features/buyer/buyerAuthentication/buyerPasswordConfiguration/buyerResetPassword.dart';
 import 'package:aproject/utils/constraints/sizes.dart';

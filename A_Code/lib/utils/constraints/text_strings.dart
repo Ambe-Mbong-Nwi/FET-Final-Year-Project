@@ -3,6 +3,9 @@ class ATexts {
   static const String onBoardingTitle1 = "Search for Your Product";
   static const String onBoardingTitle2 = "Reserve Your Product";
   static const String onBoardingTitle3 = "Make Payment";
+  static const String sellerOnBoardingTitle1 = "Display Your Products";
+  static const String sellerOnBoardingTitle2 = "Reserve Buyer's Product";
+  static const String sellerOnBoardingTitle3 = "Receive Payment";
 
   static const String onBoardingSubTitle1 =
       "Find your product at a market closer to you at an affordable price.";
@@ -10,6 +13,12 @@ class ATexts {
       "Communicate with the seller to reserve a product for you.";
   static const String onBoardingSubTitle3 =
       "Pay for the reserved goods to secure them.";
+  static const String sellerOnBoardingSubTitle1 =
+      "Create your online shop and showcase those wonderful products of yours.";
+  static const String sellerOnBoardingSubTitle2 =
+      "Communicate with buyers to reserve products for them.";
+  static const String sellerOnBoardingSubTitle3 =
+      "Receive payment for the reserved goods to secure them.";
 
 //login... titles 6:23
   static const String loginTitle = "Welcome back";
@@ -80,4 +89,8 @@ class ATexts {
   // static const String fullname = "";
   // static const String username = "";
   // static const String email = "";
+
+//appbar
+  static const String buyerAppBarTitle = "Welcome";
+  static const String buyerAppBarSubTitle = "Ambe";
 }

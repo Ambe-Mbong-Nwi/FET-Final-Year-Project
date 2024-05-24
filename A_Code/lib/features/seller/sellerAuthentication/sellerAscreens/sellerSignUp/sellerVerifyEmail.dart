@@ -57,8 +57,8 @@ class sellerVerifyEmailScreen extends StatelessWidget {
                         child: ElevatedButton(
                             onPressed: () => Get.to(() => success_screen(
                                   image: AImages.verifiedEmail,
-                                  title: ATexts.verifyEmailTitle,
-                                  subTitle: ATexts.verifyEmailSubTitle,
+                                  title: ATexts.yourAccountCreatedTitle,
+                                  subTitle: ATexts.yourAccountCreatedSubTitle,
                                   onPressed: () =>
                                       Get.to(() => const sellerLoginScreen()),
                                 )),

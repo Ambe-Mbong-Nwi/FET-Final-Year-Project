@@ -1,5 +1,7 @@
 //this was refactored to a class bcos i have 3 onboarding pages with same properties just difference in contents. Less code using this method.
 //now you can call this func above 3 times.
+// ignore_for_file: file_names
+
 import 'package:aproject/utils/constraints/sizes.dart';
 import 'package:aproject/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';

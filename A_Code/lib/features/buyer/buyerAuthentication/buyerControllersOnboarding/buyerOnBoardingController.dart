@@ -1,5 +1,7 @@
 //designed the page layout in onboarding.dart, and used onboarding_controller class for all the controls.
 
+// ignore_for_file: file_names
+
 import 'package:aproject/features/buyer/buyerAuthentication/buyerAscreens/buyerLogin/buyerlogin.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

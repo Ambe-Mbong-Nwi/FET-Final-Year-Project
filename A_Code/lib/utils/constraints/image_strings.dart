@@ -13,6 +13,8 @@ class AImages {
       "assets/images/onBoardingImages/Messages_noBackground.gif";
   static const String onBoardingImage3 =
       "assets/images/onBoardingImages/PaymentInfo_noBackground.gif";
+  static const String sellerOnBoardingImage1 =
+      "assets/images/onBoardingImages/displayProduct_noBackground.gif";
 
   //social Logo
   static const String google = "assets/logos/google.png";
