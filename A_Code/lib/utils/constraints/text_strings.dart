@@ -91,6 +91,6 @@ class ATexts {
   // static const String email = "";
 
 //appbar
-  static const String buyerAppBarTitle = "Welcome";
+  static const String buyerAppBarTitle = "Welcome,";
   static const String buyerAppBarSubTitle = "Ambe";
 }
