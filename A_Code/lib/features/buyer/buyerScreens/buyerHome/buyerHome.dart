@@ -1,10 +1,12 @@
 // ignore_for_file: file_names
 
 import 'package:aproject/common/widgets/custom_shapes/containers/searchContainer.dart';
-import 'package:aproject/common/widgets/texts/ASectionHeading.dart';
+import 'package:aproject/common/widgets/layouts/gridLayout.dart';
 import 'package:aproject/features/buyer/buyerScreens/buyerHome/widgets/buyerDrawerNavidation.dart';
 import 'package:aproject/features/buyer/buyerScreens/buyerHome/widgets/buyerHomeAppBar.dart';
 import 'package:aproject/features/buyer/buyerScreens/buyerHome/widgets/buyerHomeCurvedWidget.dart';
+import 'package:aproject/features/buyer/buyerScreens/buyerHome/widgets/buyerPopularCategories.dart';
+import 'package:aproject/features/buyer/buyerScreens/buyerHome/widgets/buyerProductCard.dart';
 import 'package:aproject/utils/constraints/sizes.dart';
 import 'package:flutter/material.dart';
 
@@ -31,30 +33,25 @@ class buyerHome extends StatelessWidget {
               children: [
                 //custom appbar defined which has property values inputed here for reusability
                 const buyerHomeAppBar(),
-                const SizedBox(height: ASizes.spaceBtwSections),
+                const SizedBox(height: ASizes.spaceBtwSections / 2),
 
                 //search bar
-                const ASearchContainer(text: 'Search for Products'),
-                const SizedBox(height: ASizes.spaceBtwSections),
+                ASearchContainer(
+                  text: 'Search for Products',
+                  ontap: () {},
+                ),
+                const SizedBox(height: ASizes.spaceBtwSections / 2),
 
-                //categories
-                const Padding(
-                    padding: EdgeInsets.only(left: ASizes.defaultSpace),
-                    child: Column(
-                      children: [
-                        ASectionHeading(
-                          title: 'Popular Categories',
-                          showButton: false,
-                        ),
-                        SizedBox(height: ASizes.spaceBtwItems),
-
-                        //
-                      ],
-                    )),
-
-                Container(height: 50, color: Colors.black)
+                //popular categories section heading
+                const buyerPopularCategories(),
+                const SizedBox(height: 35),
               ],
             )),
+            //product cards.
+            AgridLayout(
+              itemCount: 6,
+              itemBuilder: (_, index) => const buyerProductCard(),
+            ),
           ],
         )));
   }

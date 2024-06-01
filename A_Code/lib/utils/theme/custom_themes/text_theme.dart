@@ -10,9 +10,9 @@ class ATextTheme {
         fontWeight: FontWeight.bold,
         color: Colors.black), //use black color text on white background
     headlineMedium: const TextStyle().copyWith(
-        fontSize: 24.0, fontWeight: FontWeight.w300, color: Colors.black),
+        fontSize: 24.0, fontWeight: FontWeight.w500, color: Colors.black),
     headlineSmall: const TextStyle().copyWith(
-        fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.black),
+        fontSize: 18.0, fontWeight: FontWeight.w200, color: Colors.black),
 
     //app name styles.
     displayLarge: const TextStyle().copyWith(
@@ -59,9 +59,9 @@ class ATextTheme {
     headlineLarge: const TextStyle().copyWith(
         fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.white),
     headlineMedium: const TextStyle().copyWith(
-        fontSize: 24.0, fontWeight: FontWeight.w300, color: Colors.white),
+        fontSize: 24.0, fontWeight: FontWeight.w500, color: Colors.white),
     headlineSmall: const TextStyle().copyWith(
-        fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.white),
+        fontSize: 18.0, fontWeight: FontWeight.w200, color: Colors.white),
 
     titleLarge: const TextStyle().copyWith(
         fontSize: 16.0,

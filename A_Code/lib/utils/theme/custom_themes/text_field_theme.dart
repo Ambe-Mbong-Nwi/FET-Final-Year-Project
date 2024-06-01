@@ -35,7 +35,7 @@ class ATextFormFieldTheme {
     ),
   );
 
-  //theme for all text field in light theme
+  //theme for all text field in dark theme
   static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 3,
     prefixIconColor: Colors.grey,
