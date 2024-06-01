@@ -1,3 +1,4 @@
+import 'package:aproject/utils/constraints/colors.dart';
 import 'package:aproject/utils/theme/custom_themes/appbar_theme.dart';
 import 'package:aproject/utils/theme/custom_themes/bottom_sheet_theme.dart';
 import 'package:aproject/utils/theme/custom_themes/checkbox_theme.dart';
@@ -34,7 +35,7 @@ class AAppTheme {
       fontFamily: 'PlayfairDisplay',
       brightness: Brightness.dark,
       primaryColor: const Color(0xFFF1A183),
-      scaffoldBackgroundColor: Colors.black,
+      scaffoldBackgroundColor: AColors.dark,
       textTheme: ATextTheme
           .darkTextTheme, //this is defined in the utils text_theme file
       elevatedButtonTheme: AElevatedButtonTheme.darkElevatedButtonTheme,

@@ -9,7 +9,8 @@ class ACircularContainer extends StatelessWidget {
     this.width = 400, //default values but can be changed
     this.height = 400,
     this.radius = 400, //for circular, radius should be = or > width and height
-    this.padding = 0,
+    this.padding,
+    this.margin,
     this.child,
     this.backgroundColor = AColors.white,
   });
@@ -18,7 +19,7 @@ class ACircularContainer extends StatelessWidget {
   final double? width;
   final double? height;
   final double radius;
-  final double padding;
+  final EdgeInsetsGeometry? padding, margin;
   final Widget? child;
   final Color? backgroundColor;
 
@@ -27,7 +28,8 @@ class ACircularContainer extends StatelessWidget {
     return Container(
       width: width,
       height: height,
-      padding: EdgeInsets.all(padding),
+      padding: padding,
+      margin: margin,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(radius),
         color: backgroundColor,

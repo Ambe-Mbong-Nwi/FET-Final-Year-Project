@@ -12,7 +12,7 @@ class AElevatedButtonTheme {
       backgroundColor: AColors.primary,
       disabledForegroundColor: Colors.grey,
       disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: AColors.primary), //border
+      side: const BorderSide(color: Colors.transparent), //border
       padding: const EdgeInsets.symmetric(vertical: 15),
       textStyle: const TextStyle(
           fontSize: 16, color: Colors.white, fontWeight: FontWeight.w600),

@@ -75,6 +75,41 @@ class ATexts {
   static const String resetPasswordSubTitle =
       "Hooray! Your verification email address has been sent. Change your password ank keep your account protected.";
 
+//customer support page
+  static const String csTitle = "Customer Support";
+  static const String csHelp = "How can we help you?";
+  static const String csLvMsg = "Leave a Message";
+  static const String csFAQ = "Frequently Asked Questions";
+  static const String csQ1 = "How can I reserve an order?";
+  static const String csQ2 = "How can I find goods on promotion?";
+  static const String csQ3 =
+      "How do I know if a good hans't been completely sold out?";
+  static const String csQ4 = "How do I appreciate great service by a vendor?";
+  static const String csA1 =
+      "On a product card, click the bottom left + icon. On the next page, view the product details, and message the seller.";
+  static const String csA2 =
+      "Visit the promotion page, next to the hompage on the botton navigation";
+  static const String csA3 =
+      "The % of the good left is found on the top left of the product card.";
+  static const String csA4 = "Leave a like on the vendor product card.";
+
+  //feedback page
+  static const String fdTitle = "Feedback/Suggestions";
+  static const String fdContact = "Our Contacts";
+  static const String fdMobileContact = "+237 681 89 18 68";
+  static const String fdEmailContact = "ambenchang@gmail.com";
+  static const String fdMobile = "Mobile";
+  static const String fdEmail = "Email";
+  static const String fdEmailSubject = "Email Subject";
+  static const String fdEmailContent = "Email Content";
+
+  //promotion screen
+  static const String promoTitle = "Sales on Promotion";
+
+  //messaging screen
+  static const String buyermesgOnboard =
+      'Secure your products by confirming with the seller';
+
   //Authentication warning texts
   // static const String email = "";
   // static const String fullname = "";

@@ -1,8 +1,10 @@
 // ignore_for_file: file_names, camel_case_types
 
 import 'package:aproject/features/buyer/buyerAuthentication/buyerAscreens/buyerLogin/buyerlogin.dart';
-import 'package:aproject/features/buyer/buyerScreens/buyerHome/buyerHome.dart';
+import 'package:aproject/features/buyer/buyerScreens/buyerAbout/buyerAbout.dart';
+import 'package:aproject/features/buyer/buyerScreens/buyerCustomerSupport/buyerCustomerSupport.dart';
 import 'package:aproject/features/buyer/buyerScreens/buyerNotification/buyerNotification.dart';
+import 'package:aproject/features/buyer/buyerScreens/buyerProfile/buyerProfile.dart';
 import 'package:flutter/material.dart';
 
 class buyerDrawerNavigation extends StatelessWidget {
@@ -42,7 +44,8 @@ class buyerDrawerNavigation extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute<void>(
-                        builder: (BuildContext context) => const buyerHome()));
+                        builder: (BuildContext context) =>
+                            const buyerProfile()));
               },
             ),
 
@@ -76,67 +79,43 @@ class buyerDrawerNavigation extends StatelessWidget {
                   height: 20.0, color: Color.fromARGB(255, 204, 203, 203)),
             ),
 
-            //report
-            // ListTile(
-            //   leading: const Icon(Icons.summarize),
-            //   title: const Text('Report'),
-            //   onTap: () {
-            //     Navigator.pop(
-            //         context); //so it closes drawer navigation before moving to the clicked page.
+            //support
+            ListTile(
+              leading: const Icon(Icons.support_agent),
+              title: const Text('Support'),
+              onTap: () {
+                Navigator.pop(
+                    context); //so it closes drawer navigation before moving to the clicked page.
 
-            //     Navigator.push(
-            //         context,
-            //         MaterialPageRoute<void>(
-            //             builder: (BuildContext context) =>
-            //                 const Reporting()));
-            //   },
-            // ),
+                Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                        builder: (BuildContext context) =>
+                            const buyerCustomerSupport()));
+              },
+            ),
 
-            // //divider
-            // const Padding(
-            //   padding: EdgeInsets.symmetric(horizontal: 10.0),
-            //   child: Divider(
-            //       height: 20.0, color: Color.fromARGB(255, 204, 203, 203)),
-            // ),
+            //divider
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10.0),
+              child: Divider(
+                  height: 20.0, color: Color.fromARGB(255, 204, 203, 203)),
+            ),
 
-            // //support
-            // ListTile(
-            //   leading: const Icon(Icons.support_agent),
-            //   title: const Text('Support'),
-            //   onTap: () {
-            //     Navigator.pop(
-            //         context); //so it closes drawer navigation before moving to the clicked page.
+            //About
+            ListTile(
+              leading: const Icon(Icons.info_outlined),
+              title: const Text('About Us'),
+              onTap: () {
+                Navigator.pop(
+                    context); //so it closes drawer navigation before moving to the clicked page.
 
-            //     Navigator.push(
-            //         context,
-            //         MaterialPageRoute<void>(
-            //             builder: (BuildContext context) =>
-            //                 const CustomerSupport()));
-            //   },
-            // ),
-
-            // //divider
-            // const Padding(
-            //   padding: EdgeInsets.symmetric(horizontal: 10.0),
-            //   child: Divider(
-            //       height: 20.0, color: Color.fromARGB(255, 204, 203, 203)),
-            // ),
-
-            // //About
-            // ListTile(
-            //   leading: const Icon(Icons.info_outlined),
-            //   title: const Text('About Us'),
-            //   onTap: () {
-            //     Navigator.pop(
-            //         context); //so it closes drawer navigation before moving to the clicked page.
-
-            //     Navigator.push(
-            //         context,
-            //         MaterialPageRoute<void>(
-            //             builder: (BuildContext context) =>
-            //                 const AboutPage()));
-            //   },
-            // ),
+                Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                        builder: (BuildContext context) => const buyerAbout()));
+              },
+            ),
 
             //divider
             const Padding(

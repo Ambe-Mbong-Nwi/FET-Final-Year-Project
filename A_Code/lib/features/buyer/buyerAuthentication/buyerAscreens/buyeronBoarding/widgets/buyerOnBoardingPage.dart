@@ -18,35 +18,37 @@ class OnBoardingPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(ASizes.defaultSpace),
-      child: Column(
-        children: [
-          //onboarding image
-          Image(
-            //using 80% 0s screen width with the aid of Helperfunc already created to get present screen width.
-            height: AHelperFunctions.screenHeight() * 0.6,
-            width: AHelperFunctions.screenWidth() * 0.8,
-            image: AssetImage(image),
-          ),
+    return SingleChildScrollView(
+      child: Padding(
+        padding: const EdgeInsets.all(ASizes.defaultSpace),
+        child: Column(
+          children: [
+            //onboarding image
+            Image(
+              //using 80% 0s screen width with the aid of Helperfunc already created to get present screen width.
+              height: AHelperFunctions.screenHeight() * 0.6,
+              width: AHelperFunctions.screenWidth() * 0.8,
+              image: AssetImage(image),
+            ),
 
-          //onboarding title
-          Text(
-            title,
-            style: Theme.of(context).textTheme.headlineLarge,
-            textAlign: TextAlign.center,
-          ),
+            //onboarding title
+            Text(
+              title,
+              style: Theme.of(context).textTheme.headlineLarge,
+              textAlign: TextAlign.center,
+            ),
 
-          //for spacing, using sizes defined in the constraints.
-          const SizedBox(height: ASizes.spaceBtwSections),
+            //for spacing, using sizes defined in the constraints.
+            const SizedBox(height: ASizes.spaceBtwSections),
 
-          //onboarding subtitle
-          Text(
-            subTitle,
-            style: Theme.of(context).textTheme.headlineMedium,
-            textAlign: TextAlign.center,
-          )
-        ],
+            //onboarding subtitle
+            Text(
+              subTitle,
+              style: Theme.of(context).textTheme.headlineMedium,
+              textAlign: TextAlign.center,
+            )
+          ],
+        ),
       ),
     );
   }

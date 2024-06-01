@@ -16,6 +16,9 @@ class AImages {
   static const String sellerOnBoardingImage1 =
       "assets/images/onBoardingImages/displayProduct_noBackground.gif";
 
+  //popular categories
+  //static const String pCElectronics =
+
   //social Logo
   static const String google = "assets/logos/google.png";
   static const String facebook = "assets/logos/facebook.png";
@@ -29,4 +32,15 @@ class AImages {
       'assets/images/onBoardingImages/verifiedEmail.png';
   static const String verifyEmail =
       'assets/images/onBoardingImages/verifyEmail.png';
+
+//product images
+  static const String cabbage = "assets/images/productImages/cabbage.png";
+  static const String carrot = "assets/images/productImages/carrot.png";
+  static const String tomatoes = "assets/images/productImages/tomatoes.png";
+
+  //customer support
+  static const String support = "assets/images/others/support.png";
+
+  //messages
+  static const String message = "assets/images/others/message.png";
 }
