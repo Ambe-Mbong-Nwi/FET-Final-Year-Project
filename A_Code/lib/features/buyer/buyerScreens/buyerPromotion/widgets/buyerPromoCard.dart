@@ -2,11 +2,13 @@
 
 import 'package:aproject/common/widgets/custom_shapes/Images/cardImage.dart';
 import 'package:aproject/common/widgets/custom_shapes/containers/cardImageContainer.dart';
+import 'package:aproject/features/shop/screens/productDetails/productDetails.dart';
 import 'package:aproject/utils/constraints/colors.dart';
 import 'package:aproject/utils/constraints/image_strings.dart';
 import 'package:aproject/utils/constraints/sizes.dart';
 import 'package:aproject/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class buyerPromoCard extends StatelessWidget {
@@ -17,7 +19,7 @@ class buyerPromoCard extends StatelessWidget {
     final dark = AHelperFunctions.isDarkMode(context);
 
     return GestureDetector(
-      onTap: () {},
+      onTap: () => Get.to(() => const productDetails()),
       child: Container(
           width: 180,
           padding: const EdgeInsets.all(1),

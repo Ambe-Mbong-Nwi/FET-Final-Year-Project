@@ -110,6 +110,13 @@ class ATexts {
   static const String buyermesgOnboard =
       'Secure your products by confirming with the seller';
 
+  //payment
+  static const String introMessage =
+      "Make payment to secure goods with a vendor only after confirmation by privately messaging the vendor";
+  static const String payVendorAmount = 'Amount to Fund Vendor';
+  static const String vPhone = 'Vendor Phone Number';
+  static const String pPhone = 'Buyer Phone Number';
+
   //Authentication warning texts
   // static const String email = "";
   // static const String fullname = "";
@@ -128,4 +135,28 @@ class ATexts {
 //appbar
   static const String buyerAppBarTitle = "Welcome,";
   static const String buyerAppBarSubTitle = "Ambe";
+
+//about
+  static const String aboutUs1 =
+      "We are a company based in Buea who beleive in giving out to the community as much as we can, as well as advancing our community Tech-Wise.";
+  static const String aboutUs2 =
+      "This system addresses our everyday issues by providing a platform for buyers to access information on product availability, prices, and location before visiting the market so as to avoid wastage of time and energy. The system also empowers sellers by providing them with a platform to display their goods effectively, attracting the right customers to their stalls.";
+  static const String aboutUs3 =
+      "Therefore resulting to convenient market experiences for both buyers and sellers, and contributing to the economic growth and development of the local market ecosystem.";
+
+//shop
+  static const String shopName = "Shop Name";
+  static const String shopMarketName = "Shop's Market";
+  static const String shopTown = "Shop Town";
+  static const String shopRegion = "Shop Region";
+  static const String shopDirections =
+      "Additional Directions to Shop (Shade #)";
+  static const String shopmainProduct = "Shop's Main Product";
+  static const String shopImage = "Shop's Image";
+
+//product
+  static const String productName = "Product Name";
+  static const String productPrice = "Product Unit Price";
+  static const String productQuantity = "Product Quantity";
+  static const String productPromotionPrice = "Promotion Price";
 }

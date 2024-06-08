@@ -1,6 +1,5 @@
 // ignore_for_file: file_names
 
-import 'package:aproject/utils/constraints/colors.dart';
 import 'package:aproject/utils/constraints/sizes.dart';
 import 'package:flutter/material.dart';
 
@@ -30,11 +29,11 @@ class ACircularIcon extends StatelessWidget {
       width: width,
       height: height,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(100),
-        color: dark
-            ? AColors.dark.withOpacity(0.9)
-            : AColors.white.withOpacity(0.9),
-      ),
+          borderRadius: BorderRadius.circular(100), color: backgroundColor
+          // color: dark
+          //     ? AColors.dark.withOpacity(0.9)
+          //     : AColors.white.withOpacity(0.9),
+          ),
       child: IconButton(
           onPressed: () {}, icon: Icon(icon, color: iconColor, size: size)),
     );

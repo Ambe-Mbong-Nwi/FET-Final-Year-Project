@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:aproject/utils/constraints/sizes.dart';
-import 'package:aproject/utils/device/device_utility.dart';
+
 import 'package:flutter/material.dart';
 
 class AAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -12,7 +12,8 @@ class AAppBar extends StatelessWidget implements PreferredSizeWidget {
       //this.leadingIcon,
       this.leading,
       this.actions,
-      this.leadingOnPressed});
+      this.leadingOnPressed,
+      this.centerTitle});
 
   //to make widget reusable, use properties instead with ? meaning optional. No required keyword above.
   final Widget? title;
@@ -21,6 +22,7 @@ class AAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Widget? leading; //for the drawer nav
   final List<Widget>? actions;
   final VoidCallback? leadingOnPressed;
+  final bool? centerTitle;
 
   @override
   Widget build(BuildContext context) {
@@ -28,6 +30,7 @@ class AAppBar extends StatelessWidget implements PreferredSizeWidget {
       padding: const EdgeInsets.symmetric(horizontal: ASizes.md),
       child: AppBar(
         automaticallyImplyLeading: false,
+        centerTitle: centerTitle,
         leading: leading,
         // leading: showBackArrow
         //     ? IconButton(
@@ -43,7 +46,7 @@ class AAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   // TODO: implement preferredSize
-  Size get preferredSize => Size.fromHeight(ADeviceUtils.getAppBarHeight());
+  Size get preferredSize => throw UnimplementedError();
 }
 
 

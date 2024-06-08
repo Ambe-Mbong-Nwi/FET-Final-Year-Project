@@ -27,6 +27,9 @@ class AImages {
   static const String twitter = "assets/logos/twitter.png";
   static const String linkedin = "assets/logos/linkedin.png";
 
+  //profile image
+  static const String myImage = 'assets/images/others/ambe.jpg';
+
   //email verification images
   static const String verifiedEmail =
       'assets/images/onBoardingImages/verifiedEmail.png';

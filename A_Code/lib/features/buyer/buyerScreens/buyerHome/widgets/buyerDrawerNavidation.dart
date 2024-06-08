@@ -5,7 +5,10 @@ import 'package:aproject/features/buyer/buyerScreens/buyerAbout/buyerAbout.dart'
 import 'package:aproject/features/buyer/buyerScreens/buyerCustomerSupport/buyerCustomerSupport.dart';
 import 'package:aproject/features/buyer/buyerScreens/buyerNotification/buyerNotification.dart';
 import 'package:aproject/features/buyer/buyerScreens/buyerProfile/buyerProfile.dart';
+import 'package:aproject/features/shop/screens/VendorShops/vendorShops.dart';
+import 'package:aproject/features/shop/screens/wishlist/wishlist.dart';
 import 'package:flutter/material.dart';
+import 'package:iconsax/iconsax.dart';
 
 class buyerDrawerNavigation extends StatelessWidget {
   const buyerDrawerNavigation({
@@ -30,6 +33,54 @@ class buyerDrawerNavigation extends StatelessWidget {
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold)),
               ),
+            ),
+
+            //wishlist
+            ListTile(
+              leading: const Icon(Iconsax
+                  .heart), //used to place icon before title. trailing places icon at the far right
+              title: const Text('Wishlist'),
+              onTap: () {
+                Navigator.pop(
+                    context); //so it closes drawer navigation before moving to the clicked page.
+
+                Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                        builder: (BuildContext context) =>
+                            const wishListScreen()));
+              },
+            ),
+
+            //divider
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10.0),
+              child: Divider(
+                  height: 20.0, color: Color.fromARGB(255, 204, 203, 203)),
+            ),
+
+            //wishlist
+            ListTile(
+              leading: const Icon(Iconsax
+                  .shop), //used to place icon before title. trailing places icon at the far right
+              title: const Text('Vendor Shops'),
+              onTap: () {
+                Navigator.pop(
+                    context); //so it closes drawer navigation before moving to the clicked page.
+
+                Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                        builder: (BuildContext context) =>
+                            const VendorShops()));
+              },
+            ),
+
+            //divider
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10.0),
+              child: Divider(
+                  height: 20.0, color: Color.fromARGB(255, 204, 203, 203)),
             ),
 
             //profile

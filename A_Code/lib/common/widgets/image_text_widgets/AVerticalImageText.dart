@@ -11,7 +11,7 @@ class AVerticalImageText extends StatelessWidget {
     required this.image,
     required this.title,
     this.textColor = AColors.white, //default
-    this.backgroundColor = AColors.white,
+    this.backgroundColor,
     this.onTap,
   });
 
